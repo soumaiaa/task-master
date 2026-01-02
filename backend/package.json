@@ -2,15 +2,10 @@
   "name": "task-master-backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx json-server --watch tasks.json --port $PORT --host 0.0.0.0"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^5.2.1",
-    "json-server": "^0.17.4"
-  },
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
 }
