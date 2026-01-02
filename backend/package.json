@@ -2,7 +2,7 @@
   "name": "task-master-backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch tasks.json --port 10000"
+    "start": "json-server --watch tasks.json --port $PORT --host 0.0.0.0"
   },
   "dependencies": {
     "json-server": "^0.17.4"
